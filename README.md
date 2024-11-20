@@ -11,11 +11,14 @@ you the option of doing any of the following. I'll make it available soon.
     - title case (Take Out Trash)
     - lowercase (take out trash)
     - uppercase (TAKE OUT TRASH)
-- Remove tasks with duplicate names
+- If multiple tasks have the same name, remove all but one
+  - one that remains will have `status` = `needs_action` if _any_ of the
+    duplicates did
 - Sort tasks
   - by task name
   - by due date
-  - by description (useful if you begin that field with an alphabetical priorty scheme)
+  - by description (useful if you begin that field with an alphabetical priorty
+    scheme)
 - Strip due dates from all tasks
 - Strip descriptions from all tasks
 - Remove completed tasks
